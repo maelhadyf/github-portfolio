@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Abd-Alhady - DevOps Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="hero">
+        <div class="overlay"></div>
         <div class="container">
             <h1>Mohamed Abd-Alhady</h1>
             <h2>DevOps Engineer</h2>
-            <p>Specialized in DevSecOps, Cloud, and CI/CD Automation</p>
+            <p>Bringing Automation, Security, and Scalability to Your Infrastructure</p>
+            <a href="#projects" class="btn">Explore My Work</a>
         </div>
     </header>
 
     <section class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate DevOps Engineer with expertise in automation, Kubernetes, and cloud infrastructure. I have a strong foundation in web application security testing and continuous delivery pipelines.</p>
+            <p>DevOps Engineer with expertise in DevSecOps, cloud technologies, and building scalable, secure infrastructure. Passionate about solving complex problems and automating processes.</p>
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Production Grade CI/CD with K8s</h3>
-                <p>Deployed to Kubernetes cluster on EKS with dynamic versioning for new Docker images. Full CI/CD pipeline with automatic triggering.</p>
-                <a href="https://github.com/maelhadyf/ci-cd-k8s" class="btn">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Infrastructure Automation at Scale</h3>
-                <p>Automated provisioning EC2 servers on AWS with Terraform and Dockerized application deployment using Ansible.</p>
-                <a href="https://github.com/maelhadyf/infrastructure-automation" class="btn">View Project</a>
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>CI/CD with Docker Compose</h3>
+                    <p>Automated Docker deployments to AWS EC2 with full CI/CD pipeline and versioning.</p>
+                    <a href="https://github.com/maelhadyf/docker-compose-ci-cd" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Application Monitoring & Recovery</h3>
+                    <p>Developed a Python script to monitor web applications and restore them automatically upon failures.</p>
+                    <a href="https://github.com/maelhadyf/app-monitor-recovery" class="btn">View Project</a>
+                </div>
             </div>
         </div>
     </section>
